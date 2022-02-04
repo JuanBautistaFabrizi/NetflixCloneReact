@@ -41,11 +41,11 @@ const List = () => {
           <ListItem />
           <ListItem />
           <ListItem />
+        </div>
         <ArrowForwardOutlined
           className="sliderArrow right"
           onClick={() => handleClick("right")}
         />
-        </div>
       </div>
     </div>
   );
